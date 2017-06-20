@@ -105,6 +105,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Gello
 
+# Root Method
+ DEFAULT_ROOT_METHOD := rootless
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8952 \
